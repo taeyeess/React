@@ -9,7 +9,7 @@ function MultiInput(){
   const {userid, name} = inputs; //비구조화 할당을 통해 값을 전달
 
   const onChange = (e) =>{
-    const {value, name} = e.target; //e.target에서 name과 value 가져옴
+    const {value, name} = e.target; //e.target에서 name과 value 가져옴 //각각의 input 태그의 name속성과 value 값을 가져옴
     setInputs({
       ...inputs, //객체를 복사, spread 문법
       [name]:value 
@@ -24,6 +24,7 @@ function MultiInput(){
       userid:'',
       name:''
     });
+    useridInput.current.focus();
   }
   
   return(
