@@ -1,0 +1,22 @@
+.box{
+  display: flex;
+}
+.box_l{
+
+}
+.box_l span{
+  font-size: 15px;
+  padding-top:20px;
+  box-sizing: border-box;
+}
+.box_l h3{
+  color:orangered;
+  font-size: 20px;
+  padding:10px 0;
+}
+.box_l p{
+
+}
+.box_r{
+  border:1px solid #000;
+}
