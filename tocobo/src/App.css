@@ -1,0 +1,46 @@
+.main{
+  background: url(https://www.tocobo.co.kr/wib/img/banner/main10.png);
+  background-position: center;
+  height: 800px;
+}
+.header{
+  width: 100%;  
+  /* background-color: aqua; */
+  padding:25px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.nav{
+  width: 350px;
+  position: absolute;
+  top:48px;
+  left:40px;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: azure;   */
+}
+
+.nav li a{
+  color:rgb(146, 1, 1);
+  font-weight: bold;
+}
+
+.logo{
+  font-size: 50px;
+  text-align: center;  
+}
+
+.logo a{
+  color:rgb(221, 22, 22);
+}
+
+.icon{
+  position: absolute;
+  top:43px;
+  right: 40px;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
