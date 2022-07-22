@@ -1,33 +1,31 @@
-.main{
-  background: url(https://www.tocobo.co.kr/wib/img/banner/main10.png);
-  background-position: center;
-  height: 800px;
-}
 .header{
   width: 100%;  
   /* background-color: aqua; */
   padding:25px;
   box-sizing: border-box;
-  position: relative;
+  position:fixed;
+  top:0; 
+  left: 0;
 }
 
 .nav{
-  width: 350px;
+  width: 400px;
   position: absolute;
   top:48px;
-  left:40px;
+  left:70px;
   display: flex;
   justify-content: space-between;
   /* background-color: azure;   */
 }
 
 .nav li a{
-  color:rgb(146, 1, 1);
+  color:rgb(172, 13, 13);
   font-weight: bold;
+  font-size: 18px;
 }
 
 .logo{
-  font-size: 50px;
+  font-size: 45px;
   text-align: center;  
 }
 
@@ -38,7 +36,7 @@
 .icon{
   position: absolute;
   top:43px;
-  right: 40px;
+  right: 70px;
   width: 200px;
   display: flex;
   justify-content: space-between;

@@ -1,8 +1,28 @@
-.contents{
-  width: 100%;
-  height: 2000px;
-  background-color: bisque;
+.main{
+  background: url(https://www.tocobo.co.kr/wib/img/banner/main10.png);
+  background-position: center;
+  height: 800px;
 }
-.intro{}
-.collection{}
-.sns{}
+
+.contents{
+  width: 100%;  
+  
+}
+.intro{
+  width: 100%;
+  height: 500px;
+  background-color: darkorange;
+
+}
+.collection{
+  width: 100%;
+  height: 500px;
+  background-color: rgb(141, 233, 145);
+
+}
+.sns{
+  width: 100%;
+  height: 500px;
+  background-color: rgb(235, 122, 188);
+
+}
