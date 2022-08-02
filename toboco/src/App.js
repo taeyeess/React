@@ -6,6 +6,7 @@ import Brand from './components/brand';
 import Shop from './components/shop';
 import Promotion from './components/promotion';
 import Community from './components/community';
+// https://tocobo.co.kr/
 
 // yarn add react-router-dom@5
 

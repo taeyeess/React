@@ -2,26 +2,29 @@ import React, { useReducer } from "react";
 import styles from './shop.module.css';
 //yarn add react-icons
 import { FiHeart } from "react-icons/fi";
+import { FaHeart } from "react-icons/fa";
 
 function Item({user}){
   return(
-    <div>
-      <div className={styles.item}>      
+    <div className={styles.item}>      
         <img className={styles.img} src={user.src}/>
         <h5>{user.sub_ttl}</h5>
         <p>{user.ttl}</p>
         <p>{user.ttl_2}</p>
-        <span>{user.discount}</span>
-        <p>{user.price}</p>
-        <button>{user.btn}{ FiHeart }</button>
-      </div>      
-    </div>
+        <p className={styles.price}>
+          <span className={styles.discount}>{user.discount}</span>
+          <span>{user.price}</span>
+        </p>
+        <button>{user.btn} 
+          <p className={styles.fiheart}><FiHeart/></p>
+          <p className={styles.faheart}><FaHeart/></p>          
+        </button>
+      </div>
   )
 }
 
 
 function Cleansing(){
-
   const items = [
     {
       id:1,

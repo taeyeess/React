@@ -2,6 +2,7 @@ import React, { useReducer } from "react";
 import styles from './shop.module.css';
 //yarn add react-icons
 import { FiHeart } from "react-icons/fi";
+import { FaHeart } from "react-icons/fa";
 
 function Item({user}){
   return(    
@@ -14,7 +15,10 @@ function Item({user}){
           <span className={styles.discount}>{user.discount}</span>
           <span>{user.price}</span>
         </p>
-        <button>{user.btn}{ FiHeart }</button>
+        <button>{user.btn} 
+          <p className={styles.fiheart}><FiHeart/></p>
+          <p className={styles.faheart}><FaHeart/></p> 
+        </button>
       </div>    
   )
 }
