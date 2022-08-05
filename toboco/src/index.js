@@ -5,6 +5,9 @@ import '../src/fonts/font.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
+import "./slick.css";
+import "./slick-theme.css";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

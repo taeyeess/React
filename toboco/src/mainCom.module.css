@@ -1,8 +1,23 @@
 .main{
+  /* background: url(https://www.tocobo.co.kr/wib/img/banner/main10.png);
+  background-position: center;
+  height: 800px; */
+  width: 100%;  
+} 
+
+.main_slide{
+  width: 100%;
+  height: 800px;
+ 
+}
+
+/* .main_1{
+  width: 100%;
+  height: 800px;
   background: url(https://www.tocobo.co.kr/wib/img/banner/main10.png);
   background-position: center;
-  height: 800px;
-}
+ 
+} */
 
 .contents{
   width: 100%;  

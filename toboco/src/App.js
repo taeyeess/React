@@ -6,9 +6,15 @@ import Brand from './components/brand';
 import Shop from './components/shop';
 import Promotion from './components/promotion';
 import Community from './components/community';
+import "./slick.css";
+import "./slick-theme.css";
+
 // https://tocobo.co.kr/
 
 // yarn add react-router-dom@5
+
+// npm install react-slick --save
+// npm install slick-carousel
 
 function App() {
   return (
