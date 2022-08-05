@@ -7,17 +7,76 @@
 
 .main_slide{
   width: 100%;
-  height: 800px;
+  height: 900px;
  
 }
 
-/* .main_1{
+.main_txt{
+  position: relative;
+  top: 30%;
+  left: 5%;   
+}
+
+.main_txt h1{
+  font-size: 73px;
+  color: #fff;
+  font-weight: 900;
+  line-height: 85px;  
+  letter-spacing: 0;
+}
+
+.main_txt p{
+  font-size: 21px;
+  color: #fff;
+  margin-top: 40px;
+}
+
+.main_txt .btn_link{
+  width: 250px;
+  height: 50px;
+  display: inline-block;
+  margin-top: 30px;
+  background-color: rgb(70, 161, 245);
+  text-align: center;
+  line-height: 50px;
+  border-radius: 35px;
+  color:#fff;
+}
+
+.main_txt .btn_link:hover{
+  transition: all 0.3s ease-in-out;
+  background-color: #fff;
+  color: rgb(70, 161, 245);
+}
+
+.first{
   width: 100%;
-  height: 800px;
+  height: 900px;
   background: url(https://www.tocobo.co.kr/wib/img/banner/main10.png);
-  background-position: center;
- 
-} */
+  background-position: center;   
+}
+
+.second{
+  width: 100%;
+  height: 900px;
+  background: url(https://tocobo.co.kr/wib/img/banner/main12e.png);
+  background-position: center; 
+}
+
+.third{
+  width: 100%;
+  height: 900px;
+  background: url(https://tocobo.co.kr/wib/img/banner/main05e.png);
+  background-position: center; 
+}
+
+.fourth{
+  width: 100%;
+  height: 900px;
+  background: url(https://tocobo.co.kr/wib/img/banner/main03.png);
+  background-position: center; 
+}
+
 
 .contents{
   width: 100%;  
